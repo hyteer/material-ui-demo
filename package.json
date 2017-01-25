@@ -1,0 +1,37 @@
+{
+  "name": "panorama",
+  "version": "1.0.0",
+  "description": "front-end app",
+  "main": "App.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "rm -rf ./public && mkdir ./public && webpack-dev-server --progress --watch"
+  },
+  "author": "liubin",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "latest",
+    "material-ui": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-swipeable-views": "latest",
+    "react-tap-event-plugin": "latest"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "css-loader": "latest",
+    "file-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "http-server": "latest",
+    "jsx-loader": "latest",
+    "path-is-absolute": "latest",
+    "react-hot-loader": "latest",
+    "style-loader": "latest",
+    "url-loader": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  }
+}
