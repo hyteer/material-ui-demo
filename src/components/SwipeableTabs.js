@@ -5,16 +5,16 @@ import React, {Component} from 'react';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import SwipeableViews from 'react-swipeable-views';
 import Paper from 'material-ui/Paper';
-import FirstPanel from 'FirstPanel';
-import SecondPanel from 'SecondPanel';
-import ThirdPanel from 'ThirdPanel';
+import FirstPanel from './FirstPanel';
+import SecondPanel from './SecondPanel';
+import ThirdPanel from './ThirdPanel';
 
 const styles = {
   slide: {
     padding: 10,
   },
   tab: {
-	  flexBasis: "100%",
+    width: "100%",
   },
 };
 

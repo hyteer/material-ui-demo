@@ -3,9 +3,9 @@
  */
 import React, {Component} from 'react';
 import Paper from 'material-ui/Paper';
-import DateRange from 'DateRange';
-import Tags from 'Tags';
-import Conditions from 'Conditions';
+import DateRange from './DateRange';
+import Tags from './Tags';
+import Conditions from './Conditions';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 import RaisedButton from 'material-ui/RaisedButton';

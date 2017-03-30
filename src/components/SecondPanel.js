@@ -2,8 +2,8 @@
  * Created by liubin on 2017/1/25.
  */
 import React, {Component} from 'react';
-import DateRange from 'DateRange';
-import ResultTable from 'ResultTable';
+import DateRange from './DateRange';
+import ResultTable from './ResultTable';
 
 const styles = {
 	slide: {
